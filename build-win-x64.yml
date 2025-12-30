@@ -35,7 +35,7 @@ jobs:
             --onefile ^
             --clean ^
             --name myapp ^
-            main.py
+            copy_file_to.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
